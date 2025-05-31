@@ -65,7 +65,7 @@ $$
 
 We can clearly make out important road features, e.g., the concrete raised traffic median in this example. However, an adjacent truck-and-trailer combination is only partially visible due to sensor occlusion near the vehicle body.
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Rear_View_Divided_Road_Image_5" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Rear_View_Divided_Road_Image_5.png" width="70%" height="70%">
 
 $$
 \begin{align}
