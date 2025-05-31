@@ -33,7 +33,7 @@ We benchmarked their performance using COCO-style metrics and visualized both gr
 
 $$
 \begin{align}
-\textrm{BEV visualization of 3D object detection using LiDAR data, where green boxes denote ground truth and red boxes represent predicted detections.}
+\textrm{BEV visualization of 3D object detection using LiDAR data where green boxes denote ground truth and red boxes represent predicted detections.}
 \end{align}
 $$
 
