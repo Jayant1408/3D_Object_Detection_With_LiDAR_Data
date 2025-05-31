@@ -203,7 +203,6 @@ $$
 \begin{align}
 \textrm{Figure 7. Showcasing Detection performance metrics (precision, recall, IoU) and spatial error histograms for SFA3D model evaluated on Waymo Sequence 1.}
 \end{align}
-
 $$
 
 - **Precision and Recall:** Near-perfect scores indicating robust detection consistency.
