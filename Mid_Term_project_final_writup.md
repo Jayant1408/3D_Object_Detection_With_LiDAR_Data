@@ -223,7 +223,7 @@ $$
 \end{align}
 $$
 
-<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_8.png" width="80%">
+<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-2_Image_8.png" width="80%">
 
 $$
 \begin{align}
