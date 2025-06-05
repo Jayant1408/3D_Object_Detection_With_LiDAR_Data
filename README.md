@@ -31,7 +31,7 @@ We benchmarked their performance using COCO-style metrics and visualized both gr
   <img src="Mid_term_project_figures\Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="100%" height="100%">
 </div>
 
-<p align="center">3D object detection BEV visualization:Green boxes denote ground truth and red boxes represent predicted detections.</p>
+<p align="center">3D object detection BEV visualization: Green boxes denote ground truth and red boxes represent predicted detections.</p>
 
 <!-- > *Green boxes indicate ground truth; red boxes show model predictions. -->
 ---
