@@ -1,4 +1,4 @@
-# Project 2.1: 3D Object Detection with LiDAR Data
+# Project: 3D Object Detection with LiDAR Data
 ## Midterm Report
 
 
