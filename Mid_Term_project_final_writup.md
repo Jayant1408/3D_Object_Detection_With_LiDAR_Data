@@ -23,7 +23,7 @@ A vehicle adjacent to the Ego Vehicle is almost entirely occluded in the sensorâ
 
 $$
 \begin{align}
-\textrm{Figure 4. Front-right view showcasing a vehicle nearly fully occluded by a blind spot next to the Ego Vehicle.}
+\textrm{Figure 1. Front-right view showcasing a vehicle nearly fully occluded by a blind spot next to the Ego Vehicle.}
 \end{align}
 $$
 
@@ -34,7 +34,7 @@ We can clearly make out important road features, e.g., the concrete raised traff
 
 $$
 \begin{align}
-\textrm{Figure 5. Rear-view point cloud showcasing only partial visibility of an adjacent truck-trailer due to sensor blind spots.}
+\textrm{Figure 2. Rear-view point cloud showcasing only partial visibility of an adjacent truck-trailer due to sensor blind spots.}
 \end{align}
 $$
 
@@ -48,7 +48,7 @@ We can clearly identify the vehicles in front of the Waymo ego vehicle in the fo
 
 $$
 \begin{align}
-\textrm{Figure 1. Front-view point cloud showcasing clearly visible rear-ends of vehicles ahead of the Ego Vehicle (highlighted in red).}
+\textrm{Figure 3. Front-view point cloud showcasing clearly visible rear-ends of vehicles ahead of the Ego Vehicle (highlighted in red).}
 \end{align}
 $$
 
@@ -58,7 +58,7 @@ There are pedestrians (in blue) in the middle of the intersection controlling tr
 
 $$
 \begin{align}
-\textrm{Figure 2. Front-left view point cloud showcasing opposing traffic (red) and pedestrians (blue) within a controlled intersection.}
+\textrm{Figure 4. Front-left view point cloud showcasing opposing traffic (red) and pedestrians (blue) within a controlled intersection.}
 \end{align}
 $$
 
@@ -69,7 +69,7 @@ as well to the right of the Ego Vehicle taking a right turn (in red).
 
 $$
 \begin{align}
-\textrm{Figure 3. Front-right point cloud view capturing a vehicle (red) making a right turn through the intersection.}
+\textrm{Figure 5. Front-right point cloud view capturing a vehicle (red) making a right turn through the intersection.}
 \end{align}
 $$
 
