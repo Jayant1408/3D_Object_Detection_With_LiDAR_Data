@@ -24,7 +24,7 @@ We can clearly identify the vehicles in front of the Waymo ego vehicle in the fo
 
 $$
 \begin{align}
-\textrm{Figure 1. Front-view point cloud showcasing clearly visible rear-ends of vehicles ahead of the Waymo car (highlighted in red).}
+\textrm{Figure 1. Front-view point cloud showcasing clearly visible rear-ends of vehicles ahead of the Ego Vehicle (highlighted in red).}
 \end{align}
 $$
 
@@ -52,13 +52,13 @@ $$
 #### Poor visibility
 #### Blind spots
 Vehicles partially occluded by others or near blind spots (e.g., right-rear) were harder to identify due to LiDAR coverage limitations. Examples for reference are as follows:
-A vehicle adjacent to the Waymo car is almost entirely occluded in the sensor’s right-side view, demonstrating one such vulnerability in the example below
+A vehicle adjacent to the Ego Vehicle is almost entirely occluded in the sensor’s right-side view, demonstrating one such vulnerability in the example below
 
 <img src="Mid_term_project_figures/Jayant_Kumar_Right_Blindspot_speedview_Image_4.png" width="100%" height="100%">
 
 $$
 \begin{align}
-\textrm{Figure 4. Front-right view showcasing a vehicle nearly fully occluded by a blind spot next to the Waymo car.}
+\textrm{Figure 4. Front-right view showcasing a vehicle nearly fully occluded by a blind spot next to the Ego Vehicle.}
 \end{align}
 $$
 
