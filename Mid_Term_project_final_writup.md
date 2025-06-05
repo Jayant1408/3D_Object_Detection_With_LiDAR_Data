@@ -236,13 +236,14 @@ These visual results confirm tight alignment of predicted boxes with visible veh
 ## Closing Remarks
 
 ### Alternatives Considered
-- Evaluation of other sequence files from Waymo to generalize conclusions.
 - Testing different pre-trained architectures (e.g., DarkNet-based Complex-YOLO).
+- Evaluation of other sequence files from Waymo to generalize conclusions.
 
 ### Potential Extensions
-- Add comparative benchmarking with other models like Complex-YOLO.
-- Conduct fine-tuning of the SFA3D model on Waymo-specific distributions.
 - Visualize predictions in camera space for deeper calibration validation.
+- Conduct fine-tuning of the SFA3D model on Waymo-specific distributions.
+- Add comparative benchmarking with other models like Complex-YOLO.
+
 
 
 ## Future Work
