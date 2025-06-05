@@ -9,7 +9,7 @@ For data preprocessing, we constructed pseudo-RGB represnetations (range images)
 
 
 ## Exploratory Data Analysis (EDA)
-To better understand the dataset and its sensor characteristics, I conducted exploratory analysis across multiple segment files from the Waymo Open Dataset. The goal was to visually inspect the LiDAR point cloud and range image data to identify patterns, limitations, and key features relevant to 3D object detection.
+To better understand the dataset and its sensor characteristics, we conducted exploratory analysis across multiple segment files from the Waymo Open Dataset. The goal was to visually inspect the LiDAR point cloud and range image data to identify patterns, limitations, and key features relevant to 3D object detection.
 
 ### Vehicle Visibility in LiDAR Point Cloud Data
 The first part of the analysis focused on evaluating vehicle visibility under different conditions. We manually analyzed a series of frames that highlight both clear and challenging visibility scenarios across diverse scenarios which include vehicles fully visible in the open field of view, partially occluded by other objects or sensor blind spots, and those at long distances where LiDAR returns become sparse. By comparing these robust scenarios, we gained insight into how factors like occlusion, proximity, and sensor angle impact the fidelity of the LiDAR data—key considerations when designing or evaluating object detection models.
@@ -20,7 +20,7 @@ Vehicles directly in front or to the side of the ego-vehicle appeared clearly in
 
 We can clearly identify the vehicles in front of the Waymo ego vehicle in the following point cloud image of the front view of the Waymo vehicle. 
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Front-View-Traffic_Image_1.png" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Front-View-Traffic_Image_1.png" width="100%" height="100%">
 
 $$
 \begin{align}
@@ -30,7 +30,7 @@ $$
 
 There are pedestrians (in blue) in the middle of the intersection controlling traffic. The oncoming vehicles to the left of the Waymo vehicle are clearly visible (in red) in the followng scene the vehicle is approaching a controlled intersection. 
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Front_Left_View_Opposing_Traffic_And_People_In_Intersection_Image_2.png" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Front_Left_View_Opposing_Traffic_And_People_In_Intersection_Image_2.png" width="100%" height="100%">
 
 $$
 \begin{align}
@@ -41,7 +41,7 @@ $$
 
 as well to the right of the Waymo vehicle taking a right turn (in red).
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Front_Right_View_Car_On_Right_Controlled-Intersection_Image_3.png" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Front_Right_View_Car_On_Right_Controlled-Intersection_Image_3.png" width="100%" height="100%">
 
 $$
 \begin{align}
@@ -54,7 +54,7 @@ $$
 Vehicles partially occluded by others or near blind spots (e.g., right-rear) were harder to identify due to LiDAR coverage limitations. Examples for reference are as follows:
 A vehicle adjacent to the Waymo car is almost entirely occluded in the sensor’s right-side view, demonstrating one such vulnerability in the example below
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Right_Blindspot_speedview_Image_4.png" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Right_Blindspot_speedview_Image_4.png" width="100%" height="100%">
 
 $$
 \begin{align}
@@ -65,7 +65,7 @@ $$
 
 We can clearly make out important road features, e.g., the concrete raised traffic median in this example. However, an adjacent truck-and-trailer combination is only partially visible due to sensor occlusion near the vehicle body.
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Rear_View_Divided_Road_Image_5.png" width="70%" height="70%" >
+<img src="Mid_term_project_figures/Jayant_Kumar_Rear_View_Divided_Road_Image_5.png" width="100%" height="100%" >
 
 $$
 \begin{align}
@@ -77,7 +77,7 @@ $$
 Distant objects, such as parked semi-trucks on shoulders, often went undetected due to sparse LiDAR point clouds despite being visible in RGB images. Examples for reference are as follows:
 A semi-truck parked on the paved shoulder  went undetected by the LiDAR unit due to poor resolution, despite being labeled in the ground truth in the example below. The semi-truck appears to be clearly distinguishable from the RGB images in this example.
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Front_View_Poor_Visibility_Image_6.png" width="70%" height="70%">
+<img src="Mid_term_project_figures/Jayant_Kumar_Front_View_Poor_Visibility_Image_6.png" width="100%" height="100%">
 
 $$
 \begin{align}
@@ -197,7 +197,7 @@ data_filename = 'training_segment-1005081002024129653_5313_150_5333_150_with_cam
 
 Below is the performance visualization for the model on the selected sequence. It includes standard detection metrics such as **Precision**, **Recall**, and **Intersection over Union (IoU)**, as well as histograms for spatial error along the $x$, $y$, and $z$ axes.
 
-<img src="Mid_term_project_figures/Detection-Performance-Metrics.png" width="70%" >
+<img src="Mid_term_project_figures/Detection-Performance-Metrics.png" width="100%" >
 
 $$
 \begin{align}
@@ -215,7 +215,7 @@ Despite being trained on KITTI, the model demonstrated strong cross-dataset gene
 
 We visually assessed the model’s predictions on two representative frames. The bounding boxes predicted by the SFA3D model are shown in red in the BEV (Bird’s Eye View) visualizations. Ground truth labels, when available, are shown in green in the RGB image projections.
 
-<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="80%">
+<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="100%">
 
 $$
 \begin{align}
@@ -223,7 +223,7 @@ $$
 \end{align}
 $$
 
-<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-2_Image_8.png" width="80%">
+<img src="Mid_term_project_figures/Detections-in-BEV-Shown-with-LiDAR-PCL-2_Image_8.png" width="100%">
 
 $$
 \begin{align}
