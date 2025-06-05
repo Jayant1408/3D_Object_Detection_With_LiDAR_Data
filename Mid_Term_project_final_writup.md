@@ -248,6 +248,7 @@ These visual results confirm tight alignment of predicted boxes with visible veh
 ## Future Work
 
 - ✅ Visualize BEV and camera-space predictions for more segment files.
-- ⬜️ Evaluate SFA3D across additional Waymo sequences.
-- ⬜️ Benchmark against Complex-YOLO and other architectures.
 - ⬜️ Fine-tune existing models using domain-specific Waymo data.
+- ⬜️ Benchmark against Complex-YOLO and other architectures.
+- ⬜️ Evaluate SFA3D across additional Waymo sequences.
+
