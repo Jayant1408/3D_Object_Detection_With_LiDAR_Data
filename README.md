@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project explores 3D object detection using LiDAR point cloud data from the **Waymo Open Dataset**. We implemented and evaluated deep learning-based models, specifically **SFA3D** and **Complex-YOLO**, to identify and classify objects such as vehicles, pedestrians, cyclists, and signs in urban driving environments.
+This project explores 3D object detection using LiDAR point cloud data from the **Waymo Open Dataset**. We implemented and evaluated deep learning-based models, specifically **Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds (SFA3D)** and **Complex-YOLO: Real-time 3D Object Detection on Point Clouds (Complex-YOLO)**, to identify and classify objects such as vehicles, pedestrians, cyclists, and signs in urban driving environments.
 
 ### Core Goals:
 - Convert range images into 3D point clouds.
