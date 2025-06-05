@@ -20,7 +20,7 @@ Vehicles directly in front or to the side of the ego-vehicle appeared clearly in
 
 We can clearly identify the vehicles in front of the Waymo ego vehicle in the following point cloud image of the front view of the Waymo vehicle. 
 
-<img src="Mid_term_project_figures/Jayant_Kumar_Front-View-Traffic_Image_1.png" width="100%" height="100%">
+<img src="Mid_term_project_figures\Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="100%" height="100%">
 
 $$
 \begin{align}
