@@ -18,7 +18,7 @@ The first part of the analysis focused on evaluating vehicle visibility under di
 
 Vehicles directly in front or to the side of the ego-vehicle appeared clearly in the point cloud, with well-defined rear-ends, headlights, and vehicle bodies. Examples for reference are as follows:
 
-We can clearly identify the vehicles in front of the Waymo ego vehicle in the following point cloud image of the front view of the Waymo vehicle. 
+We can clearly identify the vehicles in front of the Waymo ego vehicle in the following point cloud image of the front view of the Ego Vehicle. 
 
 <img src="Mid_term_project_figures/Jayant_Kumar_Front-View-Traffic_Image_1.png" width="100%" height="100%">
 
@@ -28,7 +28,7 @@ $$
 \end{align}
 $$
 
-There are pedestrians (in blue) in the middle of the intersection controlling traffic. The oncoming vehicles to the left of the Waymo vehicle are clearly visible (in red) in the followng scene the vehicle is approaching a controlled intersection. 
+There are pedestrians (in blue) in the middle of the intersection controlling traffic. The oncoming vehicles to the left of the Ego Vehicle are clearly visible (in red) in the followng scene the vehicle is approaching a controlled intersection. 
 
 <img src="Mid_term_project_figures/Jayant_Kumar_Front_Left_View_Opposing_Traffic_And_People_In_Intersection_Image_2.png" width="100%" height="100%">
 
@@ -39,7 +39,7 @@ $$
 $$
 
 
-as well to the right of the Waymo vehicle taking a right turn (in red).
+as well to the right of the Ego Vehicle taking a right turn (in red).
 
 <img src="Mid_term_project_figures/Jayant_Kumar_Front_Right_View_Car_On_Right_Controlled-Intersection_Image_3.png" width="100%" height="100%">
 
