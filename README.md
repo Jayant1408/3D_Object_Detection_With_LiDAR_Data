@@ -28,7 +28,7 @@ In this project, we developed a complete LiDAR-based object detection pipeline. 
 We benchmarked their performance using COCO-style metrics and visualized both ground-truth and predicted boxes in BEV and image space.
 
 <div align="center">
-  <img src="Mid_term_project_figures\Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="70%">
+  <img src="Mid_term_project_figures\Detections-in-BEV-Shown-with-LiDAR-PCL-1_Image_7.png" width="100%" height="100%">
 </div>
 
 <p align="center">3D object detection BEV visualization:Green boxes denote ground truth and red boxes represent predicted detections.</p>
