@@ -40,6 +40,10 @@ We benchmarked their performance using COCO-style metrics and visualized both gr
 
 As part of the midterm write-up requirements, we conducted a thorough inspection of vehicle visibility in the point cloud:
 
+### Range Image Findings:
+- The **intensity channel** helped isolate strong reflectors like metal surfaces.
+- Several frames demonstrated how these intensity cues improved the BEV map's clarity.
+
 ### Vehicle Visibility Examples:
 - Captured **10 distinct vehicles** across varying occlusion levels and angles.
 - Included both clear full-shape returns and partial detections (e.g., from oblique angles).
@@ -47,10 +51,6 @@ As part of the midterm write-up requirements, we conducted a thorough inspection
 ### Stable Features Identified:
 - **Rear bumpers** and **tail lights** consistently appeared across vehicles with high-intensity returns in LiDAR.
 - Other features such as roofs and license plates varied more depending on angle and distance.
-
-### Range Image Findings:
-- The **intensity channel** helped isolate strong reflectors like metal surfaces.
-- Several frames demonstrated how these intensity cues improved the BEV map's clarity.
 
 Additional figures and discussion are available in the midterm report directory.
 
