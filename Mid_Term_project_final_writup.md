@@ -140,19 +140,19 @@ To switch between `Sequence 1`, `Sequence 2`, or `Sequence 3` from the Waymo Ope
 ```python
 # Waymo segment file selection
 # Sequence 1
-# data_filename = 'training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord'
+data_filename = 'training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord'
 # Sequence 2
-data_filename = 'training_segment-10072231702153043603_5725_000_5745_000_with_camera_labels.tfrecord'
+# data_filename = 'training_segment-10072231702153043603_5725_000_5745_000_with_camera_labels.tfrecord'
 # Sequence 3
 # data_filename = 'training_segment-10963653239323173269_1924_000_1944_000_with_camera_labels.tfrecord'
 ```
 
-Then, update the `configs.rel_results_folder` path in `objdet_detect.py` to match the results folder for that sequence. For example, for Sequence 2:
+Then, update the `configs.rel_results_folder` path in `objdet_detect.py` to match the results folder for that sequence. For example, for Sequence 1:
 ```python
-configs.rel_results_folder = 'results_sequence_2_resnet'
+configs.rel_results_folder = 'results_sequence_1_resnet'
 ```
 
-This will direct output to the correct subfolder, e.g., `results/fpn-resnet/results_sequence_2_resnet/`.
+This will direct output to the correct subfolder, e.g., `results/fpn-resnet/results_sequence_1_resnet/`.
 
 ---
 
@@ -236,7 +236,7 @@ These visual results confirm tight alignment of predicted boxes with visible veh
 ## Closing Remarks
 
 ### Alternatives Considered
-- Testing different pre-trained architectures (e.g., DarkNet-based Complex-YOLO).
+- Testing different pre-trained architectures .
 - Evaluation of other sequence files from Waymo to generalize conclusions.
 
 ### Potential Extensions
