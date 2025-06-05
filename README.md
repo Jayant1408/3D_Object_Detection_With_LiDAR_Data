@@ -82,7 +82,7 @@ We compared performance using:
 | `setup.py`                    | Project installation and environment setup. |
 
 
-## Notes
+## Key Takeaways
 
 - Visualizations were key to verifying detection performance and sensor alignment.
 - Object features such as tail lights and bumpers were essential for reliable tracking and classification.
